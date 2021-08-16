@@ -1,0 +1,305 @@
+.header-container { 
+   background-color: black;
+height: 15vh; 
+border-bottom: 2px white;
+align-items: center;
+display: flex; 
+flex-direction: row;
+justify-content: space-around;
+box-shadow: 5px 5px 30px grey;
+}
+
+.company-logo{
+height: 12vh;
+}
+
+.company-logo:hover{
+height: 12.5vh;
+}
+
+.nav-bar{
+margin-left: 10vw;
+}
+
+.nav-bar ul{
+list-style-type: none; 
+}
+
+.nav-bar ul li{ 
+display: inline;
+padding: 1em;
+}
+
+.nav-bar ul li a{
+text-decoration: none;
+color: white;
+}
+
+.nav-bar ul li a:hover{
+color: coral; 
+border-bottom: 1px solid white;
+padding-bottom: 1em;
+}
+
+button{
+background: white; 
+color: white;
+border: 2px solid white;
+padding: 1em; 
+width: 7vw; 
+border-radius: 7px;
+}
+
+button:hover{
+background:white;
+color: coral;
+border: 2px solid coral;
+padding: 1em;
+width: 7vw;
+border-radius: 7px;
+}
+
+
+.part1 { 
+background-image: url('brilback.png'); 
+background-size: 1600px 500px; 
+height: 70vh;
+text-align: center;
+}
+
+.myImage1 {
+  float: right;
+  height: 135px;
+  width: 235px;
+  font-family: Veranda;
+  padding: 2em;
+}
+.part2 { 
+background-image: url('glass.jpg'); 
+background-size: 1600px 600px; 
+text-align: center;
+height: 70vh;
+}
+
+.part2 h2{
+color:black;
+font-style:italic;
+font-size: 2em;
+}
+
+.part2 h4{
+color: black;
+font-style:italic;
+font-size: 1.5em;
+}
+
+.part3 h2{
+color:white;
+font-style:italic;
+font-size: 2em;
+}
+
+.part3 h4{
+color: white;
+font-style:italic;
+font-size: 1.5em;
+}
+
+.part2.1{
+background-color: grey ;
+display: flex;
+flex-direction: column; 
+padding-bottom: 5vh;
+padding-top: 5vh;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+
+.column img{
+height: 35vh;
+width:20vw;
+padding-top: 2.5em;
+}
+
+.column img:hover{
+height: 35vh;
+width:20vw;
+padding-bottom: 2.5em;
+opacity: 0.5;
+}
+
+
+
+.column h3{
+color: black;
+font-style: bold;
+font-size: 1.5em;
+padding: 1em;
+}
+
+.column h5{
+color: white;
+font-style: bold;
+font-size: 1.5em;
+padding:1em;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: hidden;
+}
+
+.part3 { 
+background-image: url('fiber.jpg'); 
+background-size: 1600px 700px; 
+text-align: center;
+height: 70vh;
+}
+
+.part4 { 
+background-image: url('capture.gif'); 
+background-size: 1600px 500px; 
+height: 70vh;
+text-align: center;
+}
+
+.part5 { 
+background-image: url('gre1.jpg'); 
+background-size: 1600px 500px; 
+height: 45vh;
+text-align: center;
+}
+
+.myImage {
+  float: left;
+  height: 275px;
+  width: 555px;
+  font-family: Veranda;
+}
+
+.myImage:hover{
+  float: left;
+  height: 270px;
+  width: 550px;
+  font-family: Veranda;
+}
+.heading {
+  float:right;
+  padding: 4em;
+  font-style:italic;
+  font-size:2em;
+}
+
+.heading:hover{
+  float:right;
+  padding: 3em;
+  font-style:italic;
+  font-size:2.3em;
+  color:black;
+}
+
+
+     .bg-grey {
+        background: #292929;
+     }
+     .logo-footer {
+        margin-bottom: 40px;
+     }
+     footer {
+            color: grey;
+     }
+     footer p, a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+     .btn-footer {
+                 color: grey;
+              
+                text-decoration: none;
+                border: 1px solid;
+                border-radius: 43px;
+                font-size: 13px;
+                padding: 7px 30px;
+                line-height: 47px;
+     }
+     .btn-footer:hover {
+                
+                text-decoration: none;
+               
+     }
+    .form-footer input[type="text"] {
+        border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+    
+}
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+ .form-footer input[type="button"] {
+    border: none;
+    background:#232323;
+        margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+     .social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+     footer ul li {
+    list-style: none;
+    display: block;
+}
+  footer ul  {
+   padding-left: 0;
+}
+footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+    
+}
+.logo-part {
+    height: px;
+  width: -10px;
+    }
+
+
+
+
+
+
+
