@@ -1,0 +1,252 @@
+.header-container { 
+   background-color: black;
+height: 25vh; 
+border-bottom: 2px white;
+align-items: center;
+display: flex; 
+flex-direction: row;
+justify-content: space-around;
+box-shadow: 5px 5px 30px grey;
+}
+
+.company-logo{
+height: 18vh;
+width: 20vw;
+margin-right: 20vw;
+}
+
+.company-logo1{
+height: 35vh;
+width: 20vw;
+margin-right: 30vw;
+}
+
+button2{
+background: lightgreen; 
+color: green;
+border: 2px solid white;
+padding: 1em; 
+width: 2vw; 
+border-radius: 5px;
+padding-top: 0.5em;
+}
+
+button{
+background: lightgrey; 
+color: white;
+border: 2px solid white;
+padding: 1em; 
+width: 10vw; 
+border-radius: 10px;
+}
+
+button:hover{
+background:white;
+color: coral;
+border: 2px solid blue;
+padding: 1em;
+width: 10vw;
+border-radius: 10px;
+}
+
+/*header formatting section ends here */
+
+/*main section formatting starts here*/
+
+.hero-unit-container1 { 
+background-image: url('logo3.jpg'); 
+background-size: 1500px 500px; 
+height: 70vh;
+text-align: center;
+
+}
+.hero-unit-container2 { 
+background-image: url('veg.jpg'); 
+background-size: 1500px 400px; 
+height: 60vh;
+text-align: center;
+
+}
+
+.hero-unit-container3 { 
+background-image: url('fru.jpg'); 
+align:center;
+background-size: 1500px 600px; 
+padding-top: vh;
+height: 60vh;
+text-align: center;
+
+}
+
+.hero-unit-container4 { 
+background-color: black; 
+align:center;
+background-size: 1500px 600px; 
+padding-top: vh;
+height: 40vh;
+text-align: center;
+
+
+
+}
+
+.hero-unit-container1 h1{
+margin: 0.2em;
+padding-top: 5vh;
+font-size: 6em;
+color: black;
+} 
+
+.hero-unit-container2 h1{
+margin: 0.2em;
+padding-top: 1vh;
+font-size: 6em;
+font-style: oblique;
+color: black;
+} 
+
+.hero-unit-container3 h1{
+margin: 0.2em;
+padding-top: 25vh;
+font-size: 8em;
+font-style: oblique;
+color: white;
+text-align: left;
+} 
+
+.hero-unit-container4 h1{
+margin: em;
+padding-bottom: 15vh;
+padding-top: 3vh;
+padding-left: 0.2vw;
+font-size: 5em;
+font-style: italic;
+color: white;
+text-align: center;
+} 
+
+
+.paper-layout-section{
+background-image: url('back.jfif');
+background-size: 1500px 400px; 
+display: flex;
+flex-direction: column; 
+padding-bottom: 5vh;
+padding-top: 5vh;
+height: 150vh;
+}
+
+.paper-layout-section h2{
+text-align: center;
+color: black;
+font-size: 2em;
+}
+
+.paper-card-container{
+display: flex;
+flex-direction: row; 
+align-items: center;
+justify-content: space-evenly; 
+margin-top: 5vh; 
+}
+
+.card h3{ 
+color: black;
+text-align: center;
+text-font: italic;
+font-size: 2em
+}
+
+.card p{ 
+color: white;
+text-align: center;
+}
+
+.card img{
+height: 35vh;
+width:20vw;
+}
+
+button1{
+background: lightgrey; 
+color: green;
+border: 2px solid white;
+padding: 1em; 
+width: 2vw; 
+border-radius: 5px;
+padding-top: 0.5em;
+}
+
+button1:hover{
+background: lightgreen; 
+color: red;
+border: 2px solid white;
+padding: 1em; 
+width: 2vw; 
+border-radius: 5px;
+padding-top: 0.5em;
+}
+
+
+.footer-basic {
+  padding:40px 0;
+  background-color:black;
+  color:white;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+
